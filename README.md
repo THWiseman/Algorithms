@@ -16,10 +16,10 @@ All code written by me in Spring and Summer 2021 for CS5800 Graduate Algorithms 
 
 - Push:Relabel.py: Algorithm for finding the maximum flow in a flow network. Runs on O(V^2E) time complexity. Assume we are pushing flow from a source to a sink node, initialize the source node to a height equal to the number of vertices in the graph, and initialize all other heights to zero. Perform push() operations while you can, which pushes flow from nodes with excess to nodes with a smaller height. Relabel if pushing is not possible. 
 
--RedBlackTree.py: Essentially a Binary Search Tree that ensures that the tree will remain balanced, even when given adversarial data. All operations guarenteed to have upper bound of O(logn) time, while binary trees, in an adversarial case, can have operations that take O(n) time. 
+- RedBlackTree.py: Essentially a Binary Search Tree that ensures that the tree will remain balanced, even when given adversarial data. All operations guarenteed to have upper bound of O(logn) time, while binary trees, in an adversarial case, can have operations that take O(n) time. 
 
--SkipList.py: Clever implementation of a sorted linked list that enables skipping of many nodes when performing operations that would take O(n) time in a normal linked list. With some duplication of data, we can create "express lanes" to traverse chunks of the linked list, skipping the need to visit every node. 
+- SkipList.py: Clever implementation of a sorted linked list that enables skipping of many nodes when performing operations that would take O(n) time in a normal linked list. With some duplication of data, we can create "express lanes" to traverse chunks of the linked list, skipping the need to visit every node. 
 
--sort.c: Basic implementation of insertion sort in C. 
+- sort.c: Basic implementation of insertion sort in C. 
 
 
